@@ -127,7 +127,7 @@ export default function Home() {
           </p>
           <p className="text-lg">
             <FontAwesomeIcon icon={faClock} /> De{" "}
-            {new Date(event.start.dateTime ?? event.start.date ?? "").toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
+            {new Date(event.start.dateTime ?? event.start.date ?? "").toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}{" "}
             à{" "}
             {new Date(event.end.dateTime ?? event.end.date ?? "").toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' })}
           </p>
